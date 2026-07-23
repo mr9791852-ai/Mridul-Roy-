@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,58 +20,67 @@ display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
+padding:20px;
 }
 
 .card{
 background:#fff;
 width:360px;
+max-width:100%;
 padding:30px;
 border-radius:20px;
 text-align:center;
-box-shadow:0 10px 30px rgba(0,0,0,.3);
+box-shadow:0 15px 35px rgba(0,0,0,.35);
 }
 
-img{
-width:160px;
-height:160px;
+.profile{
+width:170px;
+height:170px;
 border-radius:50%;
 border:5px solid #00bcd4;
 object-fit:cover;
+display:block;
+margin:0 auto 20px;
 }
 
 h1{
-margin-top:15px;
 color:#0097a7;
+font-size:36px;
+margin-bottom:8px;
 }
 
 h3{
 color:#666;
 font-weight:normal;
-margin:10px 0;
+margin-bottom:20px;
 }
 
 .info{
+font-size:18px;
 margin:10px 0;
 color:#444;
 }
 
 .about{
-background:#f3f3f3;
-padding:15px;
 margin-top:20px;
-border-radius:10px;
-line-height:1.6;
+padding:18px;
+background:#f5f5f5;
+border-radius:12px;
+line-height:1.8;
+color:#555;
 }
 
 .btn{
 display:block;
-background:#00acc1;
-color:white;
+width:100%;
 padding:15px;
 margin-top:15px;
+background:#00acc1;
+color:#fff;
 text-decoration:none;
+font-size:20px;
 border-radius:30px;
-font-size:18px;
+transition:.3s;
 }
 
 .btn:hover{
@@ -79,17 +89,18 @@ background:#00838f;
 
 footer{
 margin-top:20px;
-color:#888;
 font-size:14px;
+color:#888;
 }
 </style>
+
 </head>
 
 <body>
 
 <div class="card">
 
-<img src="profile.jpg" alt="Mridul Roy">
+<img src="profile.jpg" alt="Mridul Roy" class="profile">
 
 <h1>Mridul Roy</h1>
 
@@ -100,22 +111,12 @@ font-size:14px;
 <div class="info">📧 mr9791852@gmail.com</div>
 
 <div class="about">
-<b>About Me</b><br><br>
-Hello! I am <b>Mridul Roy</b> from Assam, India.
-I enjoy learning new technology, creating websites, and exploring AI tools.
+<h2>About Me</h2><br>
+Hello! I am <b>Mridul Roy</b> from Assam, India.<br><br>
+I enjoy learning new technology, creating websites, and exploring AI tools.<br><br>
 Thank you for visiting my personal website.
 </div>
 
 <a href="tel:6026068637" class="btn">📞 Call Me</a>
 
-<a href="mailto:mr9791852@gmail.com" class="btn">📧 Email Me</a>
-
-<footer>
-© 2026 Mridul Roy<br>
-All Rights Reserved
-</footer>
-
-</div>
-
-</body>
-</html>
+<a href="mailto:mr9791852@gmail.com" class="btn">📧
